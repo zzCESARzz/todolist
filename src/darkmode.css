@@ -1,0 +1,79 @@
+/* Asegúrate de tener este estilo en styles.css o agrégalo */
+.theme-toggle {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: #e4dddd57;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    font-size: 24px;
+    transition: transform 0.3s ease-in-out;
+}
+  
+.theme-toggle:focus {
+    outline: none;
+}
+  
+#theme-icon {
+    display: inline-block;
+}
+/* DARK MODE */
+body.dark-mode {
+    background: #1d1f21;
+    color: #c5c6c7;
+}
+
+body.dark-mode .todoapp {
+    background: #282a2e;
+    box-shadow: 0 2px 4px rgba(255, 255, 255, 0.2), 0 25px 50px rgba(255, 255, 255, 0.1);
+}
+
+body.dark-mode h1 {
+    color: #d64a53;
+}
+
+body.dark-mode .new-todo {
+    background: rgba(255, 255, 255, 0.02);
+    color: #c5c6c7;
+}
+
+body.dark-mode .new-todo::placeholder {
+    color: #757575;
+}
+
+body.dark-mode .todo-list li label {
+    color: #c5c6c7;
+}
+
+body.dark-mode .todo-list li.completed label {
+    color: #7c7d7d;
+}
+
+body.dark-mode .filters li a {
+    border-color: rgba(255, 255, 255, 0.1);
+}
+
+body.dark-mode .filters li a.selected {
+    border-color: rgba(255, 255, 255, 0.2);
+}
+
+body.dark-mode .clear-completed {
+    color: #c5c6c7;
+}
+
+body.dark-mode .footer .todo-count {
+    color: #c5c6c7;
+}
+
+body.dark-mode .destroy {
+    color: #cc9a9a;
+}
+
+body.dark-mode .destroy:hover {
+    color: #af5b5e;
+}
+
+body.dark-mode .info {
+    color: #bfbfbf;
+}
